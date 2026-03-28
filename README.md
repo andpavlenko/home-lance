@@ -1,12 +1,19 @@
 # My /home/lance directory setup
 
-# Shell
+## Clone repository
+
+```sh
+cd
+git clone git@github.com:andpavlenko/home-lance.git .
+```
+
+## Shell
 
 ```sh
 # sudo pacman -S zsh
 # sudo apt install zsh
 chsh --shell /usr/bin/zsh
-./zsh-setup.sh
+./src/zsh-setup.sh
 
 curl https://mise.run | sh
 echo "eval \"\$(/home/lance/.local/bin/mise activate zsh)\"" >> "/home/lance/.zshrc"
