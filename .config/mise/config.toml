@@ -1,7 +1,11 @@
 [tools]
-go = "latest"
+# go = "latest"
 # hugo-extended = "latest"
+bat = "latest"
+btop = "latest"
 zoxide = "latest"
+doggo = "latest"
+tmux = "latest"
 lazygit = "latest"
 lazydocker = "latest"
 kubectl = "latest"

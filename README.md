@@ -17,6 +17,7 @@ chsh --shell /usr/bin/zsh
 
 curl https://mise.run | sh
 echo "eval \"\$(/home/lance/.local/bin/mise activate zsh)\"" >> "/home/lance/.zshrc"
+mise install
 ```
 
 ## Backups
