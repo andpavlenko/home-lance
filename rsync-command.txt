@@ -1,0 +1,1 @@
+rsync -ahP --delete --info=all4 /srv/nfs/ /mnt

@@ -1,0 +1,8 @@
+[tools]
+go = "latest"
+# hugo-extended = "latest"
+zoxide = "latest"
+lazygit = "latest"
+lazydocker = "latest"
+kubectl = "latest"
+k9s = "latest"
