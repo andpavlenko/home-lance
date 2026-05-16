@@ -1,1 +1,2 @@
 rsync -ahP --delete --info=all4 /mnt/old/ /mnt/new
+rsync -a --progress --delete --exclude .cache /home/lance/ /mnt/backup/server.local/lance/

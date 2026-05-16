@@ -1,0 +1,2 @@
+s3fs -d -f my-bucket:/ ~/s3-bucket/ -o url=https://minio.pavlenko.local -o passwd_file=~/.passwd-s3fs -o use_path_request_style -o allow_other
+
