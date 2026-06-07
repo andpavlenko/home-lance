@@ -112,6 +112,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# home-lance
 eval "$(/home/lance/.local/bin/mise activate bash)"
-eval "$(zoxide init bash)"
+
+[[ -f ~/.fzf.bash ]] && source ~/.fzf.bash
+[[ -f ~/.zoxide.bash ]] && source ~/.zoxide.bash
+
+alias cat='bat'
+
+export GIT_SSL_NO_VERIFY=1
 
